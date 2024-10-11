@@ -3,6 +3,12 @@
 ```bash
 git clone git@github.com:maxboom/polygons.git .
 ```
+
+- **Copy environment variables:**
+```bash
+cp .env.example .env
+```
+
 - **Build docker**
 ```bash
 docker-compose up -d
