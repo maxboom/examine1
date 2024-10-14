@@ -1,7 +1,7 @@
 ## Installation
 - **Clone the repository:**
 ```bash
-git clone git@github.com:maxboom/polygons.git .
+git clone git@github.com:maxboom/examine1.git .
 ```
 
 - **Copy environment variables:**
