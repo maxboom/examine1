@@ -31,5 +31,5 @@ Route::group([
     });
 });
 
-Route::get('/login', [AuthController::class, 'loginPage'])->name('login');
+Route::get('/login', [AuthController::class, 'loginPage'])->name('loginPage');
 Route::post('/auth', [AuthController::class, 'login'])->name('auth');

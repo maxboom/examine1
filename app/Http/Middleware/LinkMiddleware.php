@@ -14,7 +14,7 @@ class LinkMiddleware
         $link = Link::findBySegment($request->segment);
 
         if (!$link) {
-            return redirect(route('login'));
+            return redirect(route('loginPage'));
         }
 
         return $next($request);
